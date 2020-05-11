@@ -1,4 +1,18 @@
 @charset "UTF-8";
+button.btn {
+  padding: 1.5rem;
+}
+
+button.btn-primary {
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+button.btn-danger {
+  background-color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9890,6 +9904,9 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=dist.css.map */
